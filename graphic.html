@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Graphic Desing - ForgetMeNot</title>
+    <link href='style.css' rel='stylesheet'/>
+      <script src="https://kit.fontawesome.com/7e32662778.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  </head>
+  <body class="graph">
+    <div class='header'>
+      <div class="header-container">
+        <div class='logo'><a href="index.html"><img src='images/logo-forgetmenot.png' alt="ForgetMeNot" width="80px"/></a></div>
+      <input type="checkbox" id="chk">
+          <label for="chk" class="show-menu-btn">
+              <i style="color:#b71541;" class="fas fa-dice-three"></i>
+          </label>
+      <ul class='menu'>
+        <li><a href='hello.html'>Hello</a></li>
+        <li><a href='graphic.html'>Graphic Design</a></li>
+        <li><a href='web.html'>Web Design</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+        <label for="chk" class="hide-menu-btn">
+          <i style="color:#ffffff;" class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+    </div>
+      	<div class='page'>
+          <div class="top-title">
+            <h2 id="title-site">Graphic desing</h2>
+          </div>
+    <div class='section graphic gr-1'>
+      <div class="col-50">
+      <div class="heading">
+        <div><h3 class="comf-font">Brand Image - Negozio di alimentari</h3>
+<p>Realizzazione del logo della brand image per catena di negozi di alimentari. <br> L’obiettivo era creare un immagine del brand che fosse semplice e parlasse senza troppi fronzoli alla clientela. Essendo una catena di negozi di paese è stato fondamentale creare un logo che rispettasse la tradizione ma allo stesso tempo rinnovasse l’immagine dell’alimentari trasmettendo la cordialità e il senso di comunità che manca nei grandi supermercati.
+<p><strong>OBIETTIVI COMUNICATIVI:</p></strong>
+<ul>
+    <li>Comunicare in modo semplice e diretto con il cliente</li>
+    <li>Creare un immagine familiare e accogliente del brand</li>
+    <li>Trasmettere l’attenzione alla tradizione e al territorio.</li>
+</ul> </div>
+      </div>
+    </div>
+    <div class="col-50">
+      <div class="img-proj">
+        <div class="slider-box" ><img src="images/bottega.png" id="image">
+<!--<div id="titolo"></div>-->
+      <input id="av" type="submit" value="<" onclick="avanti()">
+      <input id="in" type="submit" value=">" onclick="indietro()">
+      </div>
+
+<script type="text/javascript">
+
+var foto=new Array();
+
+foto[0]="images/bottega.png";
+foto[1]="images/bottega-2.png";
+foto[2]="images/bottega-3.png";
+foto[3]="images/bottega-4.png";
+
+var i=0;
+
+function avanti(){
+  if (i<foto.length-1)
+     i++;
+  else
+     i=0;
+  document.getElementById("image").src=foto[i];
+
+  var str = foto[i].split('/');
+  //document.getElementById("titolo").innerHTML=str[1];
+}
+
+function indietro(){
+  if (i==0)
+     i=foto.length-1;
+ else
+     i--;
+  var str = foto[i].split('/');
+  //document.getElementById("titolo").innerHTML=str[1];
+  document.getElementById("image").src=foto[i];
+}
+
+</script>
+
+      </div>
+    </div>
+  </div>
+    <div class='section graphic gr-2'>
+      <div class="col-50">
+        <div class="img-proj">
+          <div class="slider-box" ><img src="images/logo-pinc-2.png" id="image2">
+  <!--<div id="titolo"></div>-->
+        <input id="av" type="submit" value="<" onclick="avanti2()">
+        <input id="in" type="submit" value=">" onclick="indietro2()">
+        </div>
+
+<script>
+var foto2=new Array();
+
+foto2[0]="images/logo-pinc-2.png";
+foto2[1]="images/logo-pinc.png";
+foto2[2]="images/logo-pinc-3.png";
+foto2[3]="images/logo-pinc-4.png";
+
+var i=0;
+
+function avanti2(){
+  if (i<foto2.length-1)
+     i++;
+  else
+     i=0;
+  document.getElementById("image2").src=foto2[i];
+
+  var str = foto2[i].split('/');
+  //document.getElementById("titolo").innerHTML=str[1];
+}
+
+function indietro2(){
+  if (i==0)
+     i=foto2.length-1;
+ else
+     i--;
+  var str = foto2[i].split('/');
+  //document.getElementById("titolo").innerHTML=str[1];
+  document.getElementById("image2").src=foto2[i];
+}
+
+</script>
+        </div>
+      </div>
+      <div class="col-50">
+      <div class="heading">
+        <div><h3 class="comf-font">Logo Concept - Azienda di consulenza</h3>
+<p>Sviluppo del logo per una compagnia di Consulenza creditizia.<br>
+La progettazione del logo è iniziata dal concetto di sicurezza. L’attenzione poi si è focalizzata sull’idea del fututo e dei progetti per il domani espressa attraverso la lettera “P” che assume una forma che ricorda l’infinito.
+<br>
+La stabilità viene trasmessa tramite la linea che sottolinea il nome del brand, questo assicura equilibrio.
+<p><strong>OBIETTIVI COMUNICATIVI:</p></strong>
+<ul>
+    <li>Stabilità</li>
+    <li>Professionalità</li>
+    <li>Affidabilità</li>
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+    <div class='section graphic gr-3'>
+      <div class="col-50">
+      <div class="heading">
+        <div><h3 class="comf-font">Immagine Coordinata - Gelateria / Caffetteria</h3>
+<p>Realizzazione dell’immagine Coordinata di una Caffetteria Gelateria, dallo sviluppo del Logo al concept del negozio.</p>
+<p><strong>OBIETTIVI COMUNICATIVI:</strong></p>
+<ul>
+    <li>Creare un immagine coordinata che trasmettesse l’indentità del Brand: accoglienza, genuinità e eccellenza.</li>
+    <li>Creare un ambiente semplice, pulito ma curato nei minimi dettagli.</li>
+    <li>Comunicare leggerezza e cordialità ma anche ricercatezza nei sapori proposti.</li>
+</ul> </div>
+      </div>
+    </div>
+    <div class="col-50">
+      <div class="img-proj">
+        <div class="slider-box" ><img src="images/bici-logo.png" id="image3">
+<!--<div id="titolo"></div>-->
+      <input id="av" type="submit" value="<" onclick="avanti3()">
+      <input id="in" type="submit" value=">" onclick="indietro3()">
+      </div>
+
+<script>
+var foto3=new Array();
+
+foto3[0]="images/bici-logo.png";
+foto3[1]="images/bici-3.png";
+foto3[2]="images/bici-2.jpg";
+foto3[3]="images/bici-4.jpg";
+
+var i=0;
+
+function avanti3(){
+if (i<foto3.length-1)
+   i++;
+else
+   i=0;
+document.getElementById("image3").src=foto3[i];
+
+var str = foto3[i].split('/');
+//document.getElementById("titolo").innerHTML=str[1];
+}
+
+function indietro3(){
+if (i==0)
+   i=foto3.length-1;
+else
+   i--;
+var str = foto3[i].split('/');
+//document.getElementById("titolo").innerHTML=str[1];
+document.getElementById("image3").src=foto3[i];
+}
+
+</script>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class=' section footer'>
+    <div class='footer-item footer-one'>
+      <p>Developed by Michela Radice</p>
+    </div>
+    <div class='footer-item footer-two'>
+      <div class="menu-social">
+          <div class="soc-ico insta"><a href='https://www.instagram.com/radicemichela/?hl=it'><i class="fab fa-instagram"></i></a></div>
+      </div>
+      <div class="menu-social">
+          <div class="soc-ico linkedin"><a href='https://www.linkedin.com/in/radice-creative-designer/'><i class="fab fa-linkedin"></i></a></div>
+      </div>
+      <div class="menu-social">
+          <div class="soc-ico site"><a href='https://www.forgetmenot.it'><i class="fas fa-link"></i></a></div>
+      </div>
+    </div>
+    <div class='footer-item footer-three'>
+      <p>All right reserved • 2020</p>
+    </div>
+  </body>
+</html>

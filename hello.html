@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>About - ForgetMeNot</title>
+    <link href='style.css' rel='stylesheet'/>
+      <script src="https://kit.fontawesome.com/7e32662778.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+      <script type="text/javascript">
+      var i = 0;
+      function scrivi()
+      {
+          var ID = document.getElementById("title-site");
+          ID.insertAdjacentText("beforeEnd", temp.charAt(i));
+          if (i < temp.length - 1)
+          {
+              i++;
+              setTimeout("scrivi()", 100);
+          }
+      }
+      function inizio()
+      {
+          var ID = document.getElementById("title-site");
+          temp = ID.innerHTML;
+          ID.innerHTML = "";
+          scrivi();
+      }
+      </script>
+  </head>
+  <body>
+    <div class='header'>
+      <div class="header-container">
+        <div class='logo'><a href="index.html"><img src='images/logo-forgetmenot.png' alt="ForgetMeNot" width="80px"/></a></div>
+      <input type="checkbox" id="chk">
+          <label for="chk" class="show-menu-btn">
+              <i style="color:#b71541;" class="fas fa-dice-three"></i>
+          </label>
+      <ul class='menu'>
+        <li><a href='hello.html'>Hello</a></li>
+        <li><a href='graphic.html'>Graphic Design</a></li>
+        <li><a href='web.html'>Web Design</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+        <label for="chk" class="hide-menu-btn">
+          <i style="color:#ffffff;" class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+    </div>
+      	<div class='page'>
+          <div class="top-title">
+            <h2 id="title-site">Hello! I'm Michela</h2>
+          </div>
+    <div class='section about'>
+      <div class="col-70 col-about">
+        <p>Questo è il mio sito web e attraverso queste pagine vorrei raccontare chi sono e di cosa mi occupo.<br>
+            Sono una persona dinamica e flessibile, che ha voglia di mettersi in gioco, apprendere e di affrontare nuovi progetti.
+            Mi ritengo una persona precisa, attenta ai dettagli e responsabile. <br>Lavoro facilmente in gruppo ma anche autonomamente.
+            I miei interessi principali sono web e graphic design, ma mi appassionano anche l’arte, la lettura, la fotografia.</p>
+        <p><strong>Attualmente di mi occupo di WEB e GRAPHIC DESIGN, il mio ruolo è quello di CREATIVE DESIGNER in un'agenzia di Comunicazione.</strong></h4>
+      </div>
+      <div class="col-30">
+        <img src="images/michela.jpg" alt="Michela Radice" width="100%"/>
+      </div>
+    <div class='section about'>
+      <div class="col-100" style="text-align:center;">
+         <h4 class="comf-font">Il mio obiettivo attuale da è diventare una Full Stack Developer, per questo sto effettuando un percoso formativo online tramite la piattaforma start2impact!</h4>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class=' section footer'>
+      <div class='footer-item footer-one'>
+        <p>Developed by Michela Radice</p>
+      </div>
+      <div class='footer-item footer-two'>
+        <div class="menu-social">
+            <div class="soc-ico insta"><a href='https://www.instagram.com/radicemichela/?hl=it'><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div class="menu-social">
+            <div class="soc-ico linkedin"><a href='https://www.linkedin.com/in/radice-creative-designer/'><i class="fab fa-linkedin"></i></a></div>
+        </div>
+        <div class="menu-social">
+            <div class="soc-ico site"><a href='https://www.forgetmenot.it'><i class="fas fa-link"></i></a></div>
+        </div>
+      </div>
+      <div class='footer-item footer-three'>
+        <p>All right reserved • 2020</p>
+      </div>
+  </body>
+</html>
